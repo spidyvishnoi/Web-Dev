@@ -1,0 +1,47 @@
+div{
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 200px;
+    background-color: rgb(182, 131, 131);
+    
+    
+
+}
+#box1{
+    background-image: url(Fresh\ beef\ burger\ isolated\ -1.jpg);
+    background-size: cover;
+    background-color: white;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin-right: 40px;
+
+}
+#box2{
+    background-image: url(pizza.png);
+    background-size: cover;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin-right: 40px;
+    
+}
+#box3{
+    background-image: url(coffee.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin-right: 40px;
+    transition: 2s;    
+}
+#box4{
+    background-image: url(mock.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin-right: 40px;
+    
+}

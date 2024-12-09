@@ -1,0 +1,30 @@
+body{
+    background-image: url(face.png);
+    background-size: cover;
+}
+
+div{
+    text-align: center;
+    display: flex;
+     margin-top: 600px;
+    justify-content: center;
+    align-items: end;
+
+    
+}
+button{
+    background: rgb(237, 237,237,.1 );
+    backdrop-filter: blur(10px);
+    height: 50px;
+    width: 110px;
+    border: 2px solid black;
+    opacity: .5px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}

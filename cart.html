@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cart-header">
+            
+            <h1>Shopping Cart</h1>
+        </div>
+
+        <div class="cart-grid">
+            <div class="cart-items">
+            <div class="cart-item">
+                <img src="/PRICE (1).png" height="110px" width="150px" alt="Product" >
+                <div class="item-details">
+                <div class="item-header">
+                            <span class="item-name">Pizza</span>
+                            <span class="item-price">600</span>
+                        </div>
+                        <div class="item-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn">-</button>
+                                <span>1</span>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-btn">Remove</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="/PRICE (2).png" ALT="Product" height="120PX" width="150px">
+                    <div class="item-details">
+                        <div class="item-header">
+                            <span class="item-name">Coffee</span>
+                            <span class="item-price">220</span>
+                        </div>
+                        <div class="item-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn">-</button>
+                                <span>1</span>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-btn">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-summary">
+                <h2 class="summary-header">Order Summary</h2>
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>820</span>
+                </div>
+                <div class="summary-row">
+                    <span>Tax</span>
+                    <span>56.40</span>
+                </div>
+                <div class="summary-row summary-total">
+                    <span>Total</span>
+                    <span>820.40</span>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

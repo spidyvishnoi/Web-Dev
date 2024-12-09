@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website - Login</title>
+    <link rel="stylesheet" href="sign.css"> 
+    
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login to Your Account</h2>
+        <form action="login-process.php" method="POST">
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your password">
+            </div>
+
+            <div class="input-group">
+                <input type="submit" value="Login">
+            </div>
+
+            <div class="forgot-password">
+                <p>Forgot your password? <a href="#">Reset it here</a></p>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
